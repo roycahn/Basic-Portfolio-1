@@ -1,0 +1,255 @@
+body {
+	background-image: url('../../assets/images/ignasi_pattern_s.png');
+	padding: 0;
+	margin: auto 0;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
+}
+
+header {
+	border-color: #cccccc;
+	padding-bottom: 0;
+	border-bottom-style: solid;
+	border-width: 2px;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0 0 0 157px;
+	padding: 28px;
+	display: inline-block;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, 
+h3 {
+	border-bottom-style: solid;
+	border-color: inherit;
+	margin-top: 0;
+}
+
+h2 {
+	padding-bottom: 28px;
+	margin-bottom: 30px;
+	border-width: 3x;
+	font-size: 30px;
+}
+
+h3 {
+	padding-bottom: 24px;
+	border-width: 2px;
+	font-size: 22px;
+}
+
+header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header,
+section,
+aside {
+	background: #ffffff;
+}
+
+section,
+aside {
+	border-style: solid;
+	border-color: #dddddd;
+	padding-left: 32px;
+	padding-right: 32px;
+	border-width: 1px;
+	margin-top: 38px;
+}
+
+section {
+	line-height: 200%;
+	margin-left: 157px;
+	width: 640px;
+	margin-right: 21px;
+	float: left;
+	padding-top: 38px;
+	padding-bottom: 20px;
+	margin-bottom: 42px;
+}
+
+form {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+input[type=text] {
+	margin-bottom: 12px;
+	border: 1px solid #dddddd;
+	height: 33px;
+	width: 100%;
+	color: #777777;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	border: none;
+	padding: 10px 30px;
+	font-size: 18px;
+
+}
+
+textarea {
+	width: 100%;
+	height: 500px;
+	border: 1px solid #dddddd;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-bottom: 12px;
+
+}
+
+section img {
+	width: 30%;
+	float:left;
+	margin: 0 20px 20px 0;
+}
+
+aside img {
+	height: 62px;
+	width: 62px;
+	margin: 0;
+	padding: 0;
+}
+	
+aside {
+	width: 213px;
+	margin-left: 21px;
+	display: inline-block;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+aside li {
+	display: inline-block;
+	padding: 0;
+	margin: 3px
+}
+
+aside ul {
+	padding: 0;
+	margin: 0;
+}
+
+header ul {
+	display: inline-block;
+	margin-top: 36px;
+	margin-left: 450px;
+	padding: 0;
+}
+
+header li {
+	display: inline-block;
+	padding: 0 18px;
+
+}
+
+header li:nth-child(2),
+header li:nth-child(3)
+{
+	border-left-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+}
+
+.tealfill {
+	background: #4aaaa5;
+	color: #ffffff;
+}
+
+.teal {
+	color: #4aaaa5;
+}
+
+footer div {
+	background: #666666;
+	width: 100%;
+	height: 98px;
+	font-size: 12px;
+	color: #dddddd;
+	text-align: center;
+	padding-top: 42px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+}
+
+footer {
+	width: 100%;
+	height: 106px;
+	position: relative;
+	
+}
+
+#content {
+	overflow: auto;
+	margin-bottom: 0;
+}
+
+.tile {
+	display: inline-block;
+	padding: 0;
+	margin-right: 35px;
+	margin-bottom: 45px;
+}
+
+
+.tile img {
+	height: 220px;
+	width: 300px;
+	margin: 0;
+	position: relative;
+}
+
+.tile h3 {
+	font-weight: normal;
+	margin-top: 155px;
+	height: 55px;
+	width: 300px;
+	position: absolute;
+	z-index: 1;
+	border: none;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 0;
+	margin-right: 0;
+}
+
+.nomargin {
+	margin-right: 0;
+}
+
+#container {
+	overflow: auto;
+	margin-top: 40px;
+	margin-bottom: -35px;
+}
+
+.hover:hover {
+	background: red;
+}
+
+header a:hover {
+	color: red;
+}
+
+
